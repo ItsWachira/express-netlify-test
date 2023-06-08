@@ -4,7 +4,7 @@
   publish = "/dist/"
   functions = "functions/"
   [build.environment]
-    NODE_VERSION = "18"
+    NODE_VERSION = "16"
 [functions]
   external_node_modules = ["express"]
   node_bundler = "esbuild"
